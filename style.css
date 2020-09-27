@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body
+{
+    font-family: 'Architects Daughter', cursive;
+    background-color: black;
+}
+
+body .container
+{
+    background-image: url("https://images.unsplash.com/photo-1601036062380-8ff45669cc86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80"); 
+    height: 700px; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
+    margin: 7% 15%;
+    padding-top: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+body .container .foto
+{
+    border-radius: 50%;
+    border: 5px solid;
+    border-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    display: block;
+}
+
+h2
+{
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 21%;
+	text-decoration: none;
+}
